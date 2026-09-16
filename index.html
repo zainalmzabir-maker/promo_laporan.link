@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sistem Pelaporan OPR & Minit Curai Digital - promo.laporan.link</title>
+  <title>Sistem Pelaporan OPR & Minit Curai Digital - laporan.link</title>
   
+  <!-- Favicon Logo -->
+  <link rel="icon" type="image/png" href="logo.png">
+
   <!-- Tailwind CSS & Lucide Icons -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
@@ -15,13 +18,12 @@
   <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-md border-b border-slate-800">
     <div class="max-w-7xl mx-auto px-4 py-3.5 flex justify-between items-center">
       <div class="flex items-center gap-2.5">
-        <span class="bg-sky-600 p-2 rounded-xl text-white">
-          <i data-lucide="file-check-2" class="w-5 h-5"></i>
-        </span>
+        <img src="logo.png" alt="Logo Laporan.Link" class="w-8 h-8 object-contain bg-white rounded-lg p-0.5 shadow-sm" onerror="this.style.display='none'">
         <span class="font-black tracking-wider uppercase text-sm sm:text-base">Laporan.Link <span class="text-amber-400 text-xs px-2 py-0.5 bg-amber-400/10 rounded-md border border-amber-400/20">Edisi Sekolah</span></span>
       </div>
       <div class="flex items-center gap-3">
         <a href="#fitur" class="hidden sm:inline-block text-xs font-bold text-slate-300 hover:text-white transition">Kelebihan</a>
+        <a href="#unit" class="hidden sm:inline-block text-xs font-bold text-slate-300 hover:text-white transition">Pilihan Unit</a>
         <a href="#testimoni" class="hidden sm:inline-block text-xs font-bold text-slate-300 hover:text-white transition">Testimoni</a>
         <a href="https://laporan.link" target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-xl text-xs font-black shadow transition flex items-center gap-1.5">
           <i data-lucide="rocket" class="w-3.5 h-3.5"></i> Masuk Sistem / Demo
@@ -30,7 +32,7 @@
     </div>
   </header>
 
-  <!-- HERO SECTION (DENGAN HOOK UTAMA) -->
+  <!-- HERO SECTION -->
   <section class="relative bg-gradient-to-br from-slate-900 via-indigo-950 text-white py-16 sm:py-24 px-4 overflow-hidden">
     <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:16px_16px]"></div>
     
@@ -55,8 +57,6 @@
           Ketahui Lebih Lanjut
         </a>
       </div>
-
-      <p class="text-xs text-slate-400 pt-2">Pakej Penuh Rasmi Sekolah hanya <b>RM20/bulan</b> untuk seluruh warga sekolah.</p>
     </div>
   </section>
 
@@ -69,8 +69,42 @@
     </div>
   </section>
 
+  <!-- SECTION: PILIHAN UNIT OPR FLEKSIBEL (SOROTAN UTAMA) -->
+  <section class="py-16 px-4 bg-sky-50/50 border-b border-slate-200" id="unit">
+    <div class="max-w-6xl mx-auto space-y-10">
+      <div class="text-center space-y-3">
+        <h2 class="text-xs font-black text-sky-600 uppercase tracking-widest">Fleksibiliti Pelaporan</h2>
+        <h3 class="text-2xl sm:text-3xl font-black text-slate-900 uppercase">Pilih Dan Jana OPR Mengikut Unit Di Sekolah</h3>
+        <p class="text-xs sm:text-sm text-slate-600 max-w-2xl mx-auto">Sistem ini direka dengan tetapan warna dan format tajuk automatik yang berbeza mengikut kesesuaian unit aktiviti guru di sekolah anda.</p>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 text-center shadow-sm space-y-2">
+          <div class="w-10 h-10 bg-red-900 text-white rounded-xl mx-auto flex items-center font-black justify-center text-xs">KOKU</div>
+          <h5 class="font-black text-xs uppercase text-slate-800">Kokurikulum</h5>
+        </div>
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 text-center shadow-sm space-y-2">
+          <div class="w-10 h-10 bg-orange-600 text-white rounded-xl mx-auto flex items-center font-black justify-center text-xs">KOAK</div>
+          <h5 class="font-black text-xs uppercase text-slate-800">Koakademik</h5>
+        </div>
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 text-center shadow-sm space-y-2">
+          <div class="w-10 h-10 bg-blue-700 text-white rounded-xl mx-auto flex items-center font-black justify-center text-xs">KUR</div>
+          <h5 class="font-black text-xs uppercase text-slate-800">Kurikulum</h5>
+        </div>
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 text-center shadow-sm space-y-2">
+          <div class="w-10 h-10 bg-indigo-700 text-white rounded-xl mx-auto flex items-center font-black justify-center text-xs">HEM</div>
+          <h5 class="font-black text-xs uppercase text-slate-800">HEM</h5>
+        </div>
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 text-center shadow-sm space-y-2 col-span-2 sm:col-span-1">
+          <div class="w-10 h-10 bg-emerald-700 text-white rounded-xl mx-auto flex items-center font-black justify-center text-xs">PENT</div>
+          <h5 class="font-black text-xs uppercase text-slate-800">Pentadbiran</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- SECTION: MENGAPA PENTADBIR SEKOLAH SELALU PENING? -->
-  <section class="py-16 px-4 bg-slate-50" id="fitur">
+  <section class="py-16 px-4 bg-white" id="fitur">
     <div class="max-w-6xl mx-auto space-y-12">
       <div class="text-center space-y-3">
         <h2 class="text-xs font-black text-sky-600 uppercase tracking-widest">Punca Tekanan Pengurusan</h2>
@@ -81,7 +115,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         
         <!-- PK PENTADBIRAN -->
-        <div class="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3 hover:border-sky-300 transition">
+        <div class="bg-slate-50 p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3 hover:border-sky-300 transition">
           <div class="w-12 h-12 bg-blue-100 text-blue-700 rounded-2xl flex items-center justify-center font-bold">
             <i data-lucide="briefcase" class="w-6 h-6"></i>
           </div>
@@ -92,7 +126,7 @@
         </div>
 
         <!-- PK HEM -->
-        <div class="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3 hover:border-sky-300 transition">
+        <div class="bg-slate-50 p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3 hover:border-sky-300 transition">
           <div class="w-12 h-12 bg-indigo-100 text-indigo-700 rounded-2xl flex items-center justify-center font-bold">
             <i data-lucide="shield-user" class="w-6 h-6"></i>
           </div>
@@ -103,7 +137,7 @@
         </div>
 
         <!-- PK KOKURIKULUM -->
-        <div class="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3 hover:border-sky-300 transition">
+        <div class="bg-slate-50 p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3 hover:border-sky-300 transition">
           <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-2xl flex items-center justify-center font-bold">
             <i data-lucide="trophy" class="w-6 h-6"></i>
           </div>
@@ -114,7 +148,7 @@
         </div>
 
         <!-- PENGETUA / GURU BESAR -->
-        <div class="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3 hover:border-emerald-300 transition">
+        <div class="bg-slate-50 p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3 hover:border-emerald-300 transition">
           <div class="w-12 h-12 bg-emerald-100 text-emerald-700 rounded-2xl flex items-center justify-center font-bold">
             <i data-lucide="award" class="w-6 h-6"></i>
           </div>
@@ -172,7 +206,7 @@
     </div>
   </section>
 
-  <!-- SECTION: TESTIMONI PENGGUNA -->
+  <!-- SECTION: TESTIMONI PENGGUNA (NAMA SEKOLAH DIKABURKAN) -->
   <section class="py-16 px-4 bg-white" id="testimoni">
     <div class="max-w-6xl mx-auto space-y-12">
       <div class="text-center space-y-3">
@@ -200,7 +234,7 @@
             <div class="w-10 h-10 rounded-full bg-sky-600 text-white font-bold flex items-center justify-center text-xs">PN</div>
             <div>
               <h5 class="font-black text-slate-900 text-xs">Puan Hajah Noraini</h5>
-              <p class="text-[11px] text-slate-500">Pengetua, SMK Seri Indah</p>
+              <p class="text-[11px] text-slate-500">Pengetua, SMK S****** I****</p>
             </div>
           </div>
         </div>
@@ -223,7 +257,7 @@
             <div class="w-10 h-10 rounded-full bg-indigo-600 text-white font-bold flex items-center justify-center text-xs">EN</div>
             <div>
               <h5 class="font-black text-slate-900 text-xs">Encik Zulkifli bin Rahman</h5>
-              <p class="text-[11px] text-slate-500">PK Pentadbiran, SMK Tun Perak</p>
+              <p class="text-[11px] text-slate-500">PK Pentadbiran, SMK T*** P****</p>
             </div>
           </div>
         </div>
@@ -246,7 +280,7 @@
             <div class="w-10 h-10 rounded-full bg-emerald-600 text-white font-bold flex items-center justify-center text-xs">CK</div>
             <div>
               <h5 class="font-black text-slate-900 text-xs">Cikgu Kamarudin</h5>
-              <p class="text-[11px] text-slate-500">PK Kokurikulum, SMK Bandar Utama</p>
+              <p class="text-[11px] text-slate-500">PK Kokurikulum, SMK B***** U****</p>
             </div>
           </div>
         </div>
@@ -255,19 +289,15 @@
     </div>
   </section>
 
-  <!-- SECTION: HARGA & LANGGANAN -->
+  <!-- SECTION: SERUAN TINDAKAN (TANPA PAPARAN HARGA) -->
   <section class="py-16 px-4 bg-slate-100">
     <div class="max-w-4xl mx-auto bg-white rounded-3xl p-8 sm:p-12 shadow-xl border border-slate-200 text-center space-y-6">
       <span class="bg-emerald-100 text-emerald-800 text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider">Langganan Rasmi Sekolah</span>
       
       <h3 class="text-2xl sm:text-4xl font-black text-slate-900 uppercase">Pakej Penuh Tanpa Had Pengguna</h3>
-      
-      <div class="text-4xl sm:text-5xl font-black text-sky-600">
-        RM20 <span class="text-xs font-medium text-slate-500">/ bulan (sekolah)</span>
-      </div>
 
       <p class="text-xs sm:text-sm text-slate-600 max-w-xl mx-auto">
-        Buka akses tanpa had untuk semua guru di sekolah anda membuat OPR dan Minit Curai, lengkap dengan logo rasmi sekolah dan sokongan ToyyibPay FPX.
+        Buka akses tanpa had untuk semua guru di sekolah anda membuat OPR pelbagai unit dan Minit Curai, lengkap dengan logo rasmi sekolah serta sokongan pembayaran ToyyibPay FPX.
       </p>
 
       <div class="pt-4">
