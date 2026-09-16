@@ -22,8 +22,8 @@
         <span class="font-black tracking-wider uppercase text-sm sm:text-base">Laporan.Link <span class="text-amber-400 text-xs px-2 py-0.5 bg-amber-400/10 rounded-md border border-amber-400/20">Edisi Sekolah</span></span>
       </div>
       <div class="flex items-center gap-3">
+        <a href="#definisi" class="hidden sm:inline-block text-xs font-bold text-slate-300 hover:text-white transition">Tentang OPR & Curai</a>
         <a href="#fitur" class="hidden sm:inline-block text-xs font-bold text-slate-300 hover:text-white transition">Kelebihan</a>
-        <a href="#unit" class="hidden sm:inline-block text-xs font-bold text-slate-300 hover:text-white transition">Pilihan Unit</a>
         <a href="#testimoni" class="hidden sm:inline-block text-xs font-bold text-slate-300 hover:text-white transition">Testimoni</a>
         <a href="https://laporan.link" target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-xl text-xs font-black shadow transition flex items-center gap-1.5">
           <i data-lucide="rocket" class="w-3.5 h-3.5"></i> Masuk Sistem / Demo
@@ -46,14 +46,14 @@
       </h1>
       
       <p class="text-sm sm:text-lg text-slate-300 max-w-3xl mx-auto leading-relaxed">
-        Hentikan cara manual yang merenyahkan. Sistem Pelaporan Digital ini <b>terus menyimpan Minit Curai & OPR secara automatik</b> ke awan, memastikan format 1 muka surat A4 sentiasa kemas, dan membolehkan pengesahan dibuat sekelip mata!
+        Hentikan cara manual yang merenyahkan. Mana-mana guru boleh log masuk menggunakan akaun log masuk sekolah dan teruskan mengisi OPR ataupun Minit Curai dengan pantas serta terus tersimpan rapi ke awan!
       </p>
 
       <div class="pt-4 flex flex-wrap justify-center gap-3">
         <a href="https://laporan.link" target="_blank" class="bg-amber-400 hover:bg-amber-300 text-slate-950 font-black px-6 py-3.5 rounded-2xl text-sm shadow-xl transition flex items-center gap-2">
           <i data-lucide="play-circle" class="w-4 h-4"></i> Cuba Mod Percubaan (Percuma)
         </a>
-        <a href="#fitur" class="bg-white/10 hover:bg-white/20 text-white font-bold px-6 py-3.5 rounded-2xl text-sm border border-white/20 transition">
+        <a href="#definisi" class="bg-white/10 hover:bg-white/20 text-white font-bold px-6 py-3.5 rounded-2xl text-sm border border-white/20 transition">
           Ketahui Lebih Lanjut
         </a>
       </div>
@@ -69,42 +69,49 @@
     </div>
   </section>
 
-  <!-- SECTION: PILIHAN UNIT OPR FLEKSIBEL (SOROTAN UTAMA) -->
-  <section class="py-16 px-4 bg-sky-50/50 border-b border-slate-200" id="unit">
-    <div class="max-w-6xl mx-auto space-y-10">
+  <!-- SECTION: APA ITU OPR & MINIT CURAI -->
+  <section class="py-16 px-4 bg-white" id="definisi">
+    <div class="max-w-6xl mx-auto space-y-12">
       <div class="text-center space-y-3">
-        <h2 class="text-xs font-black text-sky-600 uppercase tracking-widest">Fleksibiliti Pelaporan</h2>
-        <h3 class="text-2xl sm:text-3xl font-black text-slate-900 uppercase">Pilih Dan Jana OPR Mengikut Unit Di Sekolah</h3>
-        <p class="text-xs sm:text-sm text-slate-600 max-w-2xl mx-auto">Sistem ini direka dengan tetapan warna dan format tajuk automatik yang berbeza mengikut kesesuaian unit aktiviti guru di sekolah anda.</p>
+        <h2 class="text-xs font-black text-sky-600 uppercase tracking-widest">Piawaian Pelaporan Rasmi</h2>
+        <h3 class="text-2xl sm:text-3xl font-black text-slate-900 uppercase">Perkasaan Dokumentasi Melalui Sistem Digital</h3>
+        <p class="text-xs sm:text-sm text-slate-600 max-w-2xl mx-auto">Sistem ini direka khusus untuk memperkemas dua bentuk pelaporan utama yang sering digunakan oleh pihak sekolah.</p>
       </div>
 
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-        <div class="bg-white p-5 rounded-2xl border border-slate-200 text-center shadow-sm space-y-2">
-          <div class="w-10 h-10 bg-red-900 text-white rounded-xl mx-auto flex items-center font-black justify-center text-xs">KOKU</div>
-          <h5 class="font-black text-xs uppercase text-slate-800">Kokurikulum</h5>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <!-- KAD DEFINISI OPR -->
+        <div class="bg-gradient-to-br from-slate-900 to-indigo-950 text-white p-8 rounded-3xl shadow-lg border border-slate-700 space-y-4">
+          <div class="flex items-center gap-3">
+            <span class="bg-amber-400 text-slate-950 p-2.5 rounded-2xl font-black">
+              <i data-lucide="file-text" class="w-6 h-6"></i>
+            </span>
+            <h4 class="text-lg font-black tracking-wide uppercase">Apakah itu OPR?</h4>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+            <b>OPR (One-Page Report)</b> adalah laporan satu muka surat untuk melaporkan apa sahaja aktiviti yang dijalankan di sekolah. Guru boleh memilih unit yang ingin dilaporkan (Kokurikulum, Kurikulum, HEM, Pentadbiran, atau Koakademik) dan sistem akan menyusun teks serta gambar secara automatik dalam satu muka surat A4 yang kemas.
+          </p>
         </div>
-        <div class="bg-white p-5 rounded-2xl border border-slate-200 text-center shadow-sm space-y-2">
-          <div class="w-10 h-10 bg-orange-600 text-white rounded-xl mx-auto flex items-center font-black justify-center text-xs">KOAK</div>
-          <h5 class="font-black text-xs uppercase text-slate-800">Koakademik</h5>
+
+        <!-- KAD DEFINISI MINIT CURAI -->
+        <div class="bg-gradient-to-br from-slate-900 to-slate-800 text-white p-8 rounded-3xl shadow-lg border border-slate-700 space-y-4">
+          <div class="flex items-center gap-3">
+            <span class="bg-emerald-400 text-slate-950 p-2.5 rounded-2xl font-black">
+              <i data-lucide="clipboard-list" class="w-6 h-6"></i>
+            </span>
+            <h4 class="text-lg font-black tracking-wide uppercase">Apakah itu Minit Curai?</h4>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+            <b>Minit Curai</b> pula adalah minit untuk menyatakan secara cepat apakah isi penting yang perlu dimaklumkan kepada sekolah selepas menyertai mesyuarat, taklimat, atau kursus (biasanya di luar sekolah) yang berkaitan dengan hal ehwal sekolah.
+          </p>
         </div>
-        <div class="bg-white p-5 rounded-2xl border border-slate-200 text-center shadow-sm space-y-2">
-          <div class="w-10 h-10 bg-blue-700 text-white rounded-xl mx-auto flex items-center font-black justify-center text-xs">KUR</div>
-          <h5 class="font-black text-xs uppercase text-slate-800">Kurikulum</h5>
-        </div>
-        <div class="bg-white p-5 rounded-2xl border border-slate-200 text-center shadow-sm space-y-2">
-          <div class="w-10 h-10 bg-indigo-700 text-white rounded-xl mx-auto flex items-center font-black justify-center text-xs">HEM</div>
-          <h5 class="font-black text-xs uppercase text-slate-800">HEM</h5>
-        </div>
-        <div class="bg-white p-5 rounded-2xl border border-slate-200 text-center shadow-sm space-y-2 col-span-2 sm:col-span-1">
-          <div class="w-10 h-10 bg-emerald-700 text-white rounded-xl mx-auto flex items-center font-black justify-center text-xs">PENT</div>
-          <h5 class="font-black text-xs uppercase text-slate-800">Pentadbiran</h5>
-        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- SECTION: MENGAPA PENTADBIR SEKOLAH SELALU PENING? -->
-  <section class="py-16 px-4 bg-white" id="fitur">
+  <!-- SECTION: BAGAIMANA SISTEM MEMBANTU PENTADBIR -->
+  <section class="py-16 px-4 bg-slate-50" id="fitur">
     <div class="max-w-6xl mx-auto space-y-12">
       <div class="text-center space-y-3">
         <h2 class="text-xs font-black text-sky-600 uppercase tracking-widest">Punca Tekanan Pengurusan</h2>
@@ -115,7 +122,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         
         <!-- PK PENTADBIRAN -->
-        <div class="bg-slate-50 p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3 hover:border-sky-300 transition">
+        <div class="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3 hover:border-sky-300 transition">
           <div class="w-12 h-12 bg-blue-100 text-blue-700 rounded-2xl flex items-center justify-center font-bold">
             <i data-lucide="briefcase" class="w-6 h-6"></i>
           </div>
@@ -126,7 +133,7 @@
         </div>
 
         <!-- PK HEM -->
-        <div class="bg-slate-50 p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3 hover:border-sky-300 transition">
+        <div class="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3 hover:border-sky-300 transition">
           <div class="w-12 h-12 bg-indigo-100 text-indigo-700 rounded-2xl flex items-center justify-center font-bold">
             <i data-lucide="shield-user" class="w-6 h-6"></i>
           </div>
@@ -137,7 +144,7 @@
         </div>
 
         <!-- PK KOKURIKULUM -->
-        <div class="bg-slate-50 p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3 hover:border-sky-300 transition">
+        <div class="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3 hover:border-sky-300 transition">
           <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-2xl flex items-center justify-center font-bold">
             <i data-lucide="trophy" class="w-6 h-6"></i>
           </div>
@@ -148,57 +155,13 @@
         </div>
 
         <!-- PENGETUA / GURU BESAR -->
-        <div class="bg-slate-50 p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3 hover:border-emerald-300 transition">
+        <div class="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3 hover:border-emerald-300 transition">
           <div class="w-12 h-12 bg-emerald-100 text-emerald-700 rounded-2xl flex items-center justify-center font-bold">
             <i data-lucide="award" class="w-6 h-6"></i>
           </div>
           <h4 class="font-black text-slate-900 text-sm uppercase">Pengetua / Guru Besar</h4>
           <p class="text-xs text-slate-600 leading-relaxed">
             Pemantauan telus. Dilengkapi ciri <b>Minit Curai Kawalan (Rahsia ber-password)</b> dan pengesahan tandatangan digital rasmi.
-          </p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION: KELEBIHAN UTAMA SISTEM -->
-  <section class="py-16 px-4 bg-slate-900 text-white">
-    <div class="max-w-6xl mx-auto space-y-12">
-      <div class="text-center space-y-3">
-        <h2 class="text-xs font-black text-amber-400 uppercase tracking-widest">Teknologi Terkini</h2>
-        <h3 class="text-2xl sm:text-3xl font-black uppercase">Mengapa Sekolah Anda Wajib Beralih ke Laporan.Link?</h3>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        
-        <div class="bg-white/5 border border-white/10 p-6 rounded-3xl space-y-3">
-          <div class="text-sky-400 font-bold flex items-center gap-2">
-            <i data-lucide="file-spreadsheet" class="w-5 h-5"></i>
-            <span class="text-sm font-black uppercase">Terus Simpan Ke Cloud</span>
-          </div>
-          <p class="text-xs text-slate-300 leading-relaxed">
-            Semua data Minit Curai dan Laporan OPR disimpan terus ke pangkalan data awan secara masa nyata (*real-time*). Tiada lagi risiko fail hilang dalam pendrive atau telefon guru.
-          </p>
-        </div>
-
-        <div class="bg-white/5 border border-white/10 p-6 rounded-3xl space-y-3">
-          <div class="text-amber-400 font-bold flex items-center gap-2">
-            <i data-lucide="layout" class="w-5 h-5"></i>
-            <span class="text-sm font-black uppercase">Format A4 Pintar (Auto-Fit)</span>
-          </div>
-          <p class="text-xs text-slate-300 leading-relaxed">
-            Gambar diselaraskan saiznya secara automatik tanpa merosakkan nisbah asal. Panel tandatangan dan nama pelapor dijamin tidak akan terkeluar ke muka surat kedua.
-          </p>
-        </div>
-
-        <div class="bg-white/5 border border-white/10 p-6 rounded-3xl space-y-3">
-          <div class="text-emerald-400 font-bold flex items-center gap-2">
-            <i data-lucide="lock" class="w-5 h-5"></i>
-            <span class="text-sm font-black uppercase">Keselamatan & Kerahsiaan</span>
-          </div>
-          <p class="text-xs text-slate-300 leading-relaxed">
-            Sistem pengasingan data ketat (*strict data isolation*). Setiap sekolah hanya boleh melihat dan mencetak laporan sekolah mereka sendiri sahaja.
           </p>
         </div>
 
@@ -289,20 +252,20 @@
     </div>
   </section>
 
-  <!-- SECTION: SERUAN TINDAKAN (TANPA PAPARAN HARGA) -->
+  <!-- SECTION: SERUAN TINDAKAN (CALL TO ACTION) -->
   <section class="py-16 px-4 bg-slate-100">
     <div class="max-w-4xl mx-auto bg-white rounded-3xl p-8 sm:p-12 shadow-xl border border-slate-200 text-center space-y-6">
-      <span class="bg-emerald-100 text-emerald-800 text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider">Langganan Rasmi Sekolah</span>
+      <span class="bg-emerald-100 text-emerald-800 text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider">Akses Masuk Sistem</span>
       
-      <h3 class="text-2xl sm:text-4xl font-black text-slate-900 uppercase">Pakej Penuh Tanpa Had Pengguna</h3>
+      <h3 class="text-2xl sm:text-4xl font-black text-slate-900 uppercase">Mula Gunakan Laporan.Link Hari Ini</h3>
 
       <p class="text-xs sm:text-sm text-slate-600 max-w-xl mx-auto">
-        Buka akses tanpa had untuk semua guru di sekolah anda membuat OPR pelbagai unit dan Minit Curai, lengkap dengan logo rasmi sekolah serta sokongan pembayaran ToyyibPay FPX.
+        Mana-mana guru boleh log masuk menggunakan akaun log masuk sekolah masing-masing dan teruskan mengisi laporan OPR ataupun Minit Curai dengan pantas dan teratur.
       </p>
 
       <div class="pt-4">
         <a href="https://laporan.link" target="_blank" class="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-black px-8 py-4 rounded-2xl text-sm shadow-lg transition">
-          <i data-lucide="external-link" class="w-4 h-4 text-amber-400"></i> Langgan & Masuk Sistem Sekarang
+          <i data-lucide="external-link" class="w-4 h-4 text-amber-400"></i> Masuk Sistem / Log Masuk Sekolah
         </a>
       </div>
     </div>
